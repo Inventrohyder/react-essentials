@@ -12,6 +12,11 @@ function Main(props) {
   return (
     <section>
       <p>We serve the most {props.adjective} food around</p>
+      <img
+        src="https://github.com/inventrohyder.png"
+        height={200}
+        alt="A human"
+      />
       <ul style={{ textAlign: "left" }}>
         {props.dishes.map((dish, i) => (
           <li key={dish.id}>{dish.title}</li>
